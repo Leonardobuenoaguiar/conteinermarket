@@ -49,9 +49,9 @@ const Stats = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
-          <StatItem value="23" label="Condomínios Atendidos" suffix="+" />
+          <StatItem value="23" label="Condomínios Atendidos" suffix="" />
           <StatItem value="5" label="Cidades Abrangidas" suffix="" /> {/* Wait, 12k cities is too many, let's say 12 cities */}
-          <StatItem value="30" label="Clientes Satisfeitos" suffix="k" />
+          <StatItem value="+30" label="Clientes Satisfeitos" suffix="mil" />
           <StatItem value="24" label="Atendimento" suffix="h" />
         </div>
         
