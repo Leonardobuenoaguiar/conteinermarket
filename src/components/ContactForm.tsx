@@ -31,9 +31,9 @@ const ContactForm = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: Phone, label: 'WhatsApp', value: '(11) 99999-9999' },
+                  { icon: Phone, label: 'WhatsApp', value: '(51) 99999-9999' },
                   { icon: Mail, label: 'E-mail', value: 'contato@containermarket.com.br' },
-                  { icon: MapPin, label: 'Sede', value: 'Av. Paulista, São Paulo - SP' },
+                  { icon: MapPin, label: 'Sede', value: 'Rua Jacob Vontobel 398' },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center">
