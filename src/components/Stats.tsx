@@ -31,7 +31,7 @@ const StatItem = ({ value, label, suffix = '' }) => {
       <div className="text-5xl md:text-6xl font-extrabold text-white mb-2">
         {count}{suffix}
       </div>
-      <div className="text-slate-400 font-medium uppercase tracking-wide text-sm">
+      <div className="text-emerald-900 font-medium uppercase tracking-wide text-sm">
         {label}
       </div>
     </div>
@@ -49,10 +49,10 @@ const Stats = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12">
-          <StatItem value="150" label="Condomínios Atendidos" suffix="+" />
-          <StatItem value="12" label="Cidades Abrangidas" suffix="k" /> {/* Wait, 12k cities is too many, let's say 12 cities */}
-          <StatItem value="50" label="Clientes Satisfeitos" suffix="k+" />
-          <StatItem value="24" label="Atendimento" suffix="/7" />
+          <StatItem value="23" label="Condomínios Atendidos" suffix="+" />
+          <StatItem value="5" label="Cidades Abrangidas" suffix="" /> {/* Wait, 12k cities is too many, let's say 12 cities */}
+          <StatItem value="30" label="Clientes Satisfeitos" suffix="k" />
+          <StatItem value="24" label="Atendimento" suffix="h" />
         </div>
         
         <div className="mt-20 bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20">
@@ -80,7 +80,7 @@ const Stats = () => {
               </div>
               <div className="flex flex-col justify-center">
                 <div className="text-3xl font-bold text-white">+45%</div>
-                <div className="text-xs text-emerald-200 uppercase">Crescimento Anual</div>
+                <div className="text-xs text-emerald-900 uppercase">Crescimento Anual</div>
               </div>
             </div>
           </div>
