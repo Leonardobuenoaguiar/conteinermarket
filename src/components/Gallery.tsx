@@ -5,9 +5,6 @@ const galleryImages = [
   { src: '/images/hero-market.jpg', title: 'Exterior Premium' },
   { src: '/images/market-interior.jpg', title: 'Interior Inteligente' },
   { src: '/images/market-night.jpg', title: 'Operação 24h' },
-  { src: '/images/hero-market.jpg', title: 'Design Modular' },
-  { src: '/images/market-interior.jpg', title: 'Autoatendimento' },
-  { src: '/images/market-night.jpg', title: 'Segurança Total' },
 ];
 
 const Gallery = () => {
