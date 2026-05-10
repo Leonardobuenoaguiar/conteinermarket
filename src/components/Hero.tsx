@@ -53,12 +53,14 @@ const Hero = () => {
                 Solicitar Proposta
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
-              <a 
-                href="#como-funciona" 
-                className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg transition-all border border-white/20 text-center"
-              >
-                Falar com Especialista
-              </a>
+<a
+  href="https://wa.me/5551993993360?text=Olá%20quero%20falar%20com%20um%20especialista"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-full font-bold text-lg transition-all border border-white/20 text-center"
+>
+  Falar com Especialista
+</a>
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-4 max-w-md">

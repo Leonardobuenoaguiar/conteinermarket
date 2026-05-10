@@ -31,7 +31,7 @@ const ContactForm = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: Phone, label: 'WhatsApp', value: '(51) 99999-9999' },
+                  { icon: Phone, label: 'WhatsApp', value: '(51)9399-3360' },
                   { icon: Mail, label: 'E-mail', value: 'contato@containermarket.com.br' },
                   { icon: MapPin, label: 'Sede', value: 'Rua Jacob Vontobel 398' },
                 ].map((item, idx) => (
@@ -89,7 +89,7 @@ const ContactForm = () => {
                 <input 
                   {...register('city', { required: true })}
                   className="w-full bg-slate-800 border border-slate-700 text-white px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-all"
-                  placeholder="São Paulo"
+                  placeholder="Porto Alegre"
                 />
               </div>
 

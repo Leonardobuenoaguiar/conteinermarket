@@ -47,7 +47,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-slate-400">
                 <Phone className="w-5 h-5 text-emerald-500 shrink-0" />
-                <span>(11) 99999-9999</span>
+                <span>(51) 9399-3360</span>
               </li>
               <li className="flex items-start gap-3 text-slate-400">
                 <Mail className="w-5 h-5 text-emerald-500 shrink-0" />
@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-slate-400">
                 <MapPin className="w-5 h-5 text-emerald-500 shrink-0" />
-                <span>Av. Paulista, 1000 <br />São Paulo - SP</span>
+                <span>Rua Jacob Vontobel 398 <br />Porto Alegre RS</span>
               </li>
             </ul>
           </div>
